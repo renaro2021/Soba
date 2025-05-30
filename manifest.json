@@ -1,8 +1,8 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "name": "Soba - Your YouTube Comment Section as a Sidebar",
+  "name": "Soba - A browser extension so your YouTube Comment Section will be a sidebar",
   "author": "renaro076",
-  "description": "Watch YouTube Videos with your Comment Section as a Sidebar",
+  "description": "Watch YouTube Videos with your Comment Section being a sidebar",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
