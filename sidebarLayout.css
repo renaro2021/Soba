@@ -1,0 +1,15 @@
+#secondary {
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+}
+
+#secondary::-webkit-scrollbar {
+  display: none;
+}
+
+#secondary.style-scope.ytd-watch-flexy {
+  padding-right: 17px; 
+  margin-right: 17px; 
+}

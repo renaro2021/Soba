@@ -1,0 +1,31 @@
+{
+  "name": "Soba - YouTube Comments as a Sidebar",
+  "author": "renaro076",
+  "description": "Watch YouTube Videos with your Comment Section as a Sidebar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["sidebarcommentsLoader.js"],
+      "css": ["sidebarLayout.css"],
+      "all_frames": true
+    }
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/watch*"
+  ],
+  "permissions": [
+    "scripting",
+    "webNavigation",
+    "storage"
+  ],
+  
+  "background": {
+    "service_worker": "pageactivityListener.js"
+  },
+
+  "icons": {
+    "128": "logo.png"
+  }
+}
